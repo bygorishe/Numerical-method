@@ -1,0 +1,21 @@
+﻿  new_kursach.cpp
+C:\Users\yurganov.2018\Desktop\new_kursach\new_kursach\knots_triad_coeff.h(23,21): warning C4244: =: преобразование "double" в "_Ty", возможна потеря данных
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\yurganov.2018\Desktop\new_kursach\new_kursach\knots_triad_coeff.h(29,16): warning C4244: =: преобразование "double" в "_Ty", возможна потеря данных
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\yurganov.2018\Desktop\new_kursach\new_kursach\knots_triad_coeff.h(35,20): warning C4244: =: преобразование "double" в "_Ty", возможна потеря данных
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\yurganov.2018\Desktop\new_kursach\new_kursach\new_kursach.cpp(229,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\yurganov.2018\Desktop\new_kursach\new_kursach\knots_triad_coeff.h(123): warning C4715: func_lambda: значение возвращается не при всех путях выполнения
+C:\Users\yurganov.2018\Desktop\new_kursach\new_kursach\knots_triad_coeff.h(140): warning C4715: func_gamma: значение возвращается не при всех путях выполнения
+C:\Users\yurganov.2018\Desktop\new_kursach\new_kursach\knots_triad_coeff.h(106): warning C4715: func_f: значение возвращается не при всех путях выполнения
+  new_kursach.vcxproj -> C:\Users\yurganov.2018\Desktop\new_kursach\Debug\new_kursach.exe

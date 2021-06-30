@@ -10,9 +10,9 @@
 #include <fstream> 
 #include <algorithm>
 
-//typedef double real;
-
 using namespace std;
+
+int num_knots, num_lambda, triangle_num, num_bounds_1, num_bounds_2, num_bounds_3, n;
 
 struct knot {
     double x = 0, y = 0;
@@ -23,7 +23,6 @@ struct triangle {
 };
 
 struct local {
-    // сортируем и потом юзаем в построение глобальной
     vector<int> knot_nums;
     vector<vector<double>> A;
     vector<double> b;
@@ -32,9 +31,16 @@ struct local {
 struct SLAE {
     vector<int> jg, ig;
     vector<double> ggl, ggu, b, di;
+    SLAE() {
+        ig.resize(num_knots + 1);
+        di.resize(num_knots);
+        b.resize(num_knots);
+        for (int i = 0; i < num_knots; i++) {
+            di[i] = 0;
+            b[i] = 0;
+        }
+    }
 };
-
-int num_knots, num_lambda, triangle_num, num_bounds_1, num_bounds_2, num_bounds_3, n;
 
 vector<double> operator + (vector<double> vector_1, const vector<double>& vector_2) {
     size_t size = vector_1.size();

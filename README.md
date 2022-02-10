@@ -26,6 +26,7 @@ u|<sub>s<sub>2</sub></sub>
 λ ∂u/∂n
 u|<sub>s<sub>3</sub></sub> + 𝛽(u|<sub>s<sub>3</sub></sub>
 − u<sub>𝛽</sub>) = 0
+
 в которых u|<sub>s<sub>i</sub></sub>
 – значение искомой функции 𝑢 на границе 𝑆<sub>i</sub>, а
 ∂u/∂n
